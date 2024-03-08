@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "henrique"
+  annotations:
+    github.com/project-slug: 'hsulimann/henrique'
+    backstage.io/kubernetes-id: "henrique"
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: java
+  owner: user:guest
+  lifecycle: experimental
